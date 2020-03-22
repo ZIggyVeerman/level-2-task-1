@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
   }
 
   private fun initViews() {
+    // Initialize the recycler view with a gridlayout
     rvPlaces.layoutManager = StaggeredGridLayoutManager(2, LinearLayoutManager.VERTICAL)
     rvPlaces.adapter = placeAdapter
 
